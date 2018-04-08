@@ -1,0 +1,28 @@
+body{
+	background-color: rgb(15,33,42);
+}
+h1{
+	font-size: 50px;
+	font-weight: normal;
+	margin-top: 24px;
+	line-height: 1;
+	color:white;
+	text-shadow: 0 1px 0 rgba(0,0,0,.3);
+}
+header{
+	background-color: rgb(23,147,205);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+iframe{
+	margin-left: 25px;
+	border: 0;
+}
+h2{
+	color: white;
+	margin-left: 25px;
+	font-size: 25px;
+	font-family: "Courier New", Courier, monospace;
+}
