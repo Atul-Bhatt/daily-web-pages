@@ -1,0 +1,21 @@
+
+#btn {
+	position: absolute;
+	top: 70%;
+	left: 40%;
+	padding: 10px 70px;
+	background: #e9e9ef;
+	border-radius: 10px;
+	border-style: none;
+}
+
+
+
+div {
+	background: #fff;
+
+	text-align: center;
+	margin-top: 150px;
+
+	font-size: 100px;
+}
