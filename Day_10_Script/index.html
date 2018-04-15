@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+</head>
+<body>
+	<h1>My First JavaScript</h1>
+	<p>We can change the content using Javascript</p>
+	
+	<p id="demo">
+		Using Javascript we can make a page dynamic and interactive.The &lt;script&gt; tag is used to define a script (JavaScript).The &lt;script&gt; element either contains scripting statements or it points to an external script file through the src attribute.Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.The script below writes Hello JavaScript! into an HTML element with id=&quot;demo&quot;.
+	</p>
+	<script>
+		function myFunction(){
+			document.getElementById("demo").innerHTML = "This is an example of Javascript";
+		}
+	</script>
+	<button type="button" onclick="myFunction()">Click me to change the content</button>
+	<noscript>
+		The &lt;noscript&gt; tag is used to provide an alternate content for users that have disabled scripts in their browser or have a browser that doesn't support client-side scripting.The &lt;noscript&gt; element can contain all the elements that you can find inside the %lt;body&gt; element of a normal HTML page.The content inside the &lt;noscript&gt; element will only be displayed if scripts are not supported, or are disabled in the user's browser:
+	</noscript>
+</body>
+</html>
