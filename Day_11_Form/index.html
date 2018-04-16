@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+
+<form action="http://www.w3schools.com/html/action_page.php">
+ <fieldset>
+ 	<legend>Personal Information:</legend>
+	  First name:<br>
+	  <input type="text" list="fname" name="firstname" >
+	  <datalist id="fname">
+	  	<option value="Nitin">
+	  	<option value="Ishank">
+	  	<option value="Atul">
+	  </datalist>
+	  <br>
+	  Last name:<br>
+	  <input list="lastname" name="lastname" >
+ 		 <datalist id="lastname">
+    		<option value="Bhatt">
+    		<option value="Bartwal">
+    	 </datalist>
+	  	<br>
+	  <input type="radio" name="gender" value="male" checked> Male
+	  <br>
+	  <input type="radio" name="gender" value="female"> Female
+	  <br>
+	  <input type="radio" name="gender" value="other"> Other
+	  <br>  
+ </fieldset>
+</form> 
+	<button type="button" onclick="alert('Information Submitted')">Submit</button>
+</body>
+</html>
