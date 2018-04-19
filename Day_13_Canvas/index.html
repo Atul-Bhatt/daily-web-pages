@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Canvas
+	</title>
+</head>
+<body>
+	<canvas id="mycanvas" width="1200" height="600" style="border: 1px solid #c3c3c3;">
+	
+	</canvas>
+	<script >
+		var c=document.getElementById("mycanvas");
+		var ctx=c.getContext("2d");
+		
+		//Fill Color
+
+		ctx.fillStyle='blue';
+		ctx.fillRect(0,0,200,200);
+		
+		//Draw a line
+
+		ctx.moveTo(0,400);
+		ctx.lineTo(1200,400);
+		ctx.stroke();
+		
+		//For circle
+
+		ctx.beginPath();
+		ctx.arc(600,150,100,0,2*Math.PI);
+		ctx.stroke();
+		
+		//Writing Stroke Text
+		ctx.font="40px sans seriff";
+		ctx.strokeText("HELLO WORLD",10,540);
+		
+		//Create Gradient
+
+		var grd=ctx.createLinearGradient(0,0,400,0);
+		grd.addColorStop(0,"red");
+		grd.addColorStop(1,"white");
+
+		//Fill with gradient
+
+		ctx.fillStyle=grd;
+		ctx.fillRect(10,400,400,80);
+	</script>
+
+</body>
+</html>
