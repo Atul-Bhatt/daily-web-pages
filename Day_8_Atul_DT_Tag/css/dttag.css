@@ -1,0 +1,18 @@
+body{
+	background-color: teal;
+}
+dl{
+	background-color: grey;
+	width: 30%;
+	padding: 10px;
+}
+dl img{
+	float: right;
+}
+div{
+	background-color: gray;
+	padding: 10px;
+}
+dt{
+	padding-top: 30px;
+}
