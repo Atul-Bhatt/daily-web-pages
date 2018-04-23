@@ -1,0 +1,24 @@
+.header{
+	overflow: hidden;
+	background-color: grey;
+	padding: 15px;
+}
+.header a{
+	font-size: 24px;
+	padding-right: 20px;
+	color: white;
+	float: right;
+	padding-top: 50px;
+}
+.header a:hover{
+	background-color: teal;
+	color: black;
+}
+.header img{
+	padding-left: 20px;
+	width: 140px;
+	height: 150px;
+}
+.header img:hover{
+	background-color: white;
+}
