@@ -1,0 +1,12 @@
+.tables{
+	padding-left: 20px;
+	background-color: grey;
+	width: 40%;
+}
+.tables td{
+	color: white;
+	font-size: 24px;
+}
+.tables h1{
+	color: rgb(0,200,200);
+}
