@@ -1,0 +1,23 @@
+
+body{
+	background-color: #aaa;
+}
+.header{
+	font-size: 40px;
+	padding: 10px;
+	background-color: teal;
+}
+.app{
+	display: flex;
+}
+.screenshot img{
+	width: 800px;
+	height: 600px;
+}
+.description p{
+	font-family: cursive;
+	padding: 45px;
+	font-size: 24px;
+	color: darkslategray;
+	height: 600px;
+}
